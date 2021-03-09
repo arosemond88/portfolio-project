@@ -1,5 +1,5 @@
 .bg {
-    background-color: #36008dff;
+    background-color: rgba(54, 0, 141, 0.884);
 }
 
 body {
@@ -59,19 +59,20 @@ body {
   .carouselp{
     margin-left: 30%;
     width: 95%;
+    margin-bottom: 20px;
   }
 
  h6 {
   position: absolute;
   left: 110px;
-  bottom: 40%;
+  bottom: 70%;
   font-size: 60px;
   color: white;
   font-weight: 700;
 }
 
 .carouselcard{
-  background-color: #36008dff;
+  background-color: rgba(54, 0, 141, 0.884);
   border-radius: 10px;
   margin-top: 45px;
   margin-left: 60px;
@@ -79,8 +80,17 @@ body {
 }
 
 .footer{
-  background-color: #36008dff;
+  background-color: rgba(54, 0, 141, 0.884);
   margin-top: 45px;
+}
+
+.fbdescription {
+  position: absolute;
+  left: 110px;
+  bottom: 38%;
+  font-size: 25px;
+  color: white;
+  font-family:Geneva;
 }
 
 
