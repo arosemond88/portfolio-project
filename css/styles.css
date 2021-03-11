@@ -5,25 +5,34 @@
 body {
   font-family: 'McLaren', cursive;
   color:white;
+}
 
+.cardcontainer{
+  background-color:  rgba(54, 0, 141, 0.205); 
 }
 
 .card1{
   background-color: #fe5e54ff ;
   color:white;
   text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .card2{
   background-color: #00c9c8ff;
   color:white;
   text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .card3{
   background-color: #ffb3c1;
   color:white;
   text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .center{
@@ -32,6 +41,7 @@ margin-left: auto;
 margin-right: auto;
 width: 65%;
 }
+
 
 .carousel-indicators li{ 
   border-radius: 100%;
@@ -57,37 +67,28 @@ width: 65%;
   background-color: #36008dff;  
 }
 
-.carouselp{
-  margin-left: 30%;
-  width: 95%;
-  margin-bottom: 20px;
-}
-
-h6 {
-position: absolute;
-left: 110px;
-bottom: 70%;
-font-size: 60px;
-color: white;
-font-weight: 700;
-}
-
-.carouselcard{
-background-color: rgba(54, 0, 141, 0.884);
-border-radius: 10px;
-margin-top: 45px;
-margin-left: 60px;
-margin-right: 60px; 
+.carousel{
+  margin-left: 10%;
+  margin-top: 30px;
 }
 
 .fbdescription {
 position: absolute;
-left: 110px;
-bottom: 38%;
+left: 50px;
+bottom: 25%;
 font-size: 25px;
-color: white;
+color:#36008dff;;
 font-family:Geneva;
 }
+
+h6 {
+  position: absolute;
+  left: 50px;
+  top: 35%;
+  font-size: 50px;
+  color: #36008dff;
+  font-weight: 700;
+  }
 
 .categoriesimg {
   max-width: 60%;
@@ -111,5 +112,5 @@ font-family:Geneva;
 
 .footer{
   background-color: rgba(54, 0, 141, 0.884);
-  margin-top: 45px;
+  
   }
