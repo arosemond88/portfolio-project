@@ -1,97 +1,115 @@
 .bg {
-    background-color: rgba(54, 0, 141, 0.884);
+  background-color: rgba(54, 0, 141, 0.884);
 }
 
 body {
-    font-family: 'McLaren', cursive;
+  font-family: 'McLaren', cursive;
+  color:white;
 
 }
 
 .card1{
-    background-color: #fe5e54ff ;
-    color:white;
-    text-align: center;
+  background-color: #fe5e54ff ;
+  color:white;
+  text-align: center;
 }
 
 .card2{
-    background-color: #00c9c8ff;
-    color:white;
-    text-align: center;
+  background-color: #00c9c8ff;
+  color:white;
+  text-align: center;
 }
 
 .card3{
-    background-color: #ffb3c1;
-    color:white;
-    text-align: center;
+  background-color: #ffb3c1;
+  color:white;
+  text-align: center;
 }
 
 .center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 65%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 65%;
 }
 
 .carousel-indicators li{ 
-    border-radius: 100%;
-    height:20px;
-    width:20px;
-    background-color: #36008dff;
-    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+  border-radius: 100%;
+  height:20px;
+  width:20px;
+  background-color: #36008dff;
+  box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
 }
-  
-  .carousel-control-prev { 
-    background-color: #36008dff;
-    top:40%;
-    margin-right:5px;
-    height:60px;
-    width:16px;
-  }
 
-  .carousel-control-next {
-    top:40%;
-    margin-right:5px;
-    height:60px;
-    width:16px;
-    background-color: #36008dff;  
-  }
+.carousel-control-prev { 
+  background-color: #36008dff;
+  top:40%;
+  margin-right:5px;
+  height:60px;
+  width:16px;
+}
 
-  .carouselp{
-    margin-left: 30%;
-    width: 95%;
-    margin-bottom: 20px;
-  }
+.carousel-control-next {
+  top:40%;
+  margin-right:5px;
+  height:60px;
+  width:16px;
+  background-color: #36008dff;  
+}
 
- h6 {
-  position: absolute;
-  left: 110px;
-  bottom: 70%;
-  font-size: 60px;
-  color: white;
-  font-weight: 700;
+.carouselp{
+  margin-left: 30%;
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+h6 {
+position: absolute;
+left: 110px;
+bottom: 70%;
+font-size: 60px;
+color: white;
+font-weight: 700;
 }
 
 .carouselcard{
-  background-color: rgba(54, 0, 141, 0.884);
-  border-radius: 10px;
-  margin-top: 45px;
-  margin-left: 60px;
-  margin-right: 60px; 
+background-color: rgba(54, 0, 141, 0.884);
+border-radius: 10px;
+margin-top: 45px;
+margin-left: 60px;
+margin-right: 60px; 
+}
+
+.fbdescription {
+position: absolute;
+left: 110px;
+bottom: 38%;
+font-size: 25px;
+color: white;
+font-family:Geneva;
+}
+
+.categoriesimg {
+  max-width: 60%;
+  height: auto;
+}
+
+.writingcontent {
+  background-color:#fe5e54ff;
+  margin-top: 20px;
+}
+
+.rpcontent {
+  background-color: #00c9c8ff;
+  margin-top: 20px;
+}
+
+.ctcontent {
+  background-color: #ffb3c1;
+  margin-top: 20px;
 }
 
 .footer{
   background-color: rgba(54, 0, 141, 0.884);
   margin-top: 45px;
-}
-
-.fbdescription {
-  position: absolute;
-  left: 110px;
-  bottom: 38%;
-  font-size: 25px;
-  color: white;
-  font-family:Geneva;
-}
-
-
-
+  }
