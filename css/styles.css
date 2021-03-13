@@ -12,7 +12,7 @@ body {
 }
 
 .card1{
-  background-color: #fe5e54ff ;
+  background-color: rgba(254, 95, 84, 0.897) ;
   color:white;
   text-align: center;
   margin-bottom: 40px;
@@ -77,7 +77,7 @@ position: absolute;
 left: 50px;
 bottom: 25%;
 font-size: 25px;
-color:#36008dff;;
+color:#36008dff;
 font-family:Geneva;
 }
 
@@ -96,21 +96,25 @@ h6 {
 }
 
 .writingcontent {
-  background-color:#fe5e54ff;
-  margin-top: 20px;
+  background-color:rgba(254, 95, 84, 0.897);
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .rpcontent {
   background-color: #00c9c8ff;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .ctcontent {
   background-color: #ffb3c1;
-  margin-top: 20px;
-}
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
 
 .footer{
   background-color: rgba(54, 0, 141, 0.884);
-  
   }
+
+  
