@@ -3,9 +3,32 @@
 }
 
 body {
-  font-family: 'McLaren', cursive;
+  font-family: 'McLaren', Geneva;
   color:white;
 }
+
+h6 {
+  position: absolute;
+  left: 50px;
+  top: 35%;
+  font-size: 50px;
+  color: #36008dff;
+  font-weight: 700;
+  }
+
+  h5 {
+    color:black;
+    font-size:24px;
+  }
+
+  .fbdescription {
+    position: absolute;
+    left: 50px;
+    bottom: 25%;
+    font-size: 25px;
+    color:#36008dff;
+    font-family:Geneva;
+    }
 
 .cardcontainer{
   background-color:  rgba(54, 0, 141, 0.205); 
@@ -42,6 +65,11 @@ margin-right: auto;
 width: 65%;
 }
 
+.cardbtn{
+  color: white;
+background-color:#36008dff;
+border: none;
+}
 
 .carousel-indicators li{ 
   border-radius: 100%;
@@ -72,49 +100,31 @@ width: 65%;
   margin-top: 30px;
 }
 
-.fbdescription {
-position: absolute;
-left: 50px;
-bottom: 25%;
-font-size: 25px;
-color:#36008dff;
-font-family:Geneva;
-}
-
-h6 {
-  position: absolute;
-  left: 50px;
-  top: 35%;
-  font-size: 50px;
-  color: #36008dff;
-  font-weight: 700;
-  }
-
 .categoriesimg {
-  max-width: 60%;
+  max-width: 80%;
   height: auto;
 }
 
-.writingcontent {
-  background-color:rgba(254, 95, 84, 0.897);
-  margin-top: 10px;
-  margin-bottom: 10px;
+.categoriescontent {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+  background-color:  rgba(54, 0, 141, 0.377);
+  
+  font-size:18px;
 }
 
-.rpcontent {
-  background-color: #00c9c8ff;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.downloadbtn{
+ color: white;
+ background-color:#36008dff;
+ border: none;
 }
-
-.ctcontent {
-  background-color: #ffb3c1;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  }
 
 .footer{
   background-color: rgba(54, 0, 141, 0.884);
   }
+
+
+ 
 
   
