@@ -1,128 +1,163 @@
 .bg {
-  background-color: rgba(54, 0, 141, 0.884);
+  background-color: #3e54d3;
 }
+
 
 body {
   font-family: 'McLaren', Geneva;
-  color:white;
+  color: #212755;
 }
 
+
 h6 {
-  position: absolute;
-  left: 50px;
-  top: 35%;
+  margin-top: 168px;
   font-size: 50px;
-  color: #36008dff;
+  color: #3e54d3;
   font-weight: 700;
+  margin-left: -15px;
   }
 
-  h5 {
-    color:black;
-    font-size:24px;
+h5 {
+   color:black;
+   font-size:24px;
   }
 
-  .fbdescription {
-    position: absolute;
-    left: 50px;
-    bottom: 25%;
-    font-size: 25px;
-    color:#36008dff;
+.header { 
+    color:#3e54d3;
+    font-size: 80px;
+    font-weight: 700;
+    margin-top:-300px;
+    margin-left: 128px; 
+  }
+
+.aboutsection {
+    background-color: #3e54d346; 
+    height:400px;
+  }
+  
+.wormimg {
+    width: 100px;
+    height: 100px;
+    margin-top: 313px;
+    margin-left: 400px; 
+  }
+
+.bookimg {
+    width:260px;
+    margin-top: -455px; 
+    margin-left: -40px;
+    
+  }
+
+.aboutdescription {
+    font-size: 22px;
+    color:#3e54d3;
+    font-family:Geneva;
+    margin-left: 128px;
+    }
+
+.fbdescription {
+    margin-top: 15px;
+    margin-left: -18px;
+    font-size: 22px;
+    color:#3e54d3;
     font-family:Geneva;
     }
 
 .cardcontainer{
-  background-color:  rgba(54, 0, 141, 0.205); 
+    background-color: #3e54d346;
+ 
 }
 
 .card1{
-  background-color: rgba(254, 95, 84, 0.897) ;
-  color:white;
-  text-align: center;
-  margin-bottom: 40px;
-  margin-top: 40px;
+    background-color: #15cdca;
+    color:white;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .card2{
-  background-color: #00c9c8ff;
-  color:white;
-  text-align: center;
-  margin-bottom: 40px;
-  margin-top: 40px;
+    background-color:#4f80e2;
+    color:white;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .card3{
-  background-color: #ffb3c1;
-  color:white;
-  text-align: center;
-  margin-bottom: 40px;
-  margin-top: 40px;
+    background-color: #4fe0a4;
+    color:white;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .center{
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
 }
 
 .cardbtn{
-  color: white;
-background-color:#36008dff;
-border: none;
+    color: black;
+    background-color:white;
+    border: none;
 }
 
 .carousel-indicators li{ 
-  border-radius: 100%;
-  height:20px;
-  width:20px;
-  background-color: #36008dff;
-  box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+    border-radius: 100%;
+    height:20px;
+    width:20px;
+    background-color: #3e54d3;
 }
 
 .carousel-control-prev { 
-  background-color: #36008dff;
-  top:40%;
-  margin-right:5px;
-  height:60px;
-  width:16px;
+    background-color: #3e54d3;
+    top:40%;
+    margin-right:5px;
+    height:60px;
+    width:16px;
 }
 
 .carousel-control-next {
-  top:40%;
-  margin-right:5px;
-  height:60px;
-  width:16px;
-  background-color: #36008dff;  
+    top:40%;
+    margin-right:5px;
+    height:60px;
+    width:16px;
+    background-color: #3e54d3;  
 }
 
 .carousel{
-  margin-left: 10%;
-  margin-top: 30px;
+    margin-left: 10%;
+    margin-top: 30px;
 }
 
 .categoriesimg {
-  max-width: 80%;
-  height: auto;
+    max-width: 90%;
+    margin-left: 40px;
 }
 
 .categoriescontent {
-  padding: 50px 0;
-  border-bottom: 1px ridge;
-  min-height: 200px;
-  background-color:  rgba(54, 0, 141, 0.377);
-  
-  font-size:18px;
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+    background-color: #3e54d346;
+    font-size:18px;
 }
 
 .downloadbtn{
- color: white;
- background-color:#36008dff;
- border: none;
+    color: white;
+    background-color: #3e54d3;
+    border: none;
 }
 
 .footer{
-  background-color: rgba(54, 0, 141, 0.884);
+    background-color: #3e54d3;
   }
+
+  
 
 
  

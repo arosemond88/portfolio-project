@@ -23,8 +23,7 @@
 <body>
   
 <!--Navbar--> 
-<nav class="navbar navbar-expand-lg navbar-dark bg sticky-top">
-  <a class="navbar-brand" href="#"></a>
+<nav class="navbar navbar-expand-sm navbar-dark bg sticky-top">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -32,12 +31,6 @@
     <ul class="navbar-nav">
       <li class="nav-item active">
         <a class="nav-link navposition" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -54,14 +47,31 @@
 </nav>
 <!-- end Navebar-->
 
+<!--About section-->
+<div class="aboutsection">
+  <img src="img/worm.png" class="pt-3 wormimg"  alt="book">
+  <div class="container">
+    <div class="row">
+      <div class="col-2"> 
+        <img src="img/world-book.png" class="pt-3 bookimg"  alt="book">
+      </div>
+      <div class="col-10">
+        <h1 class="header text-center">BookWorm</h1>
+        <p class="aboutdescription text-center"> Our mission at bookworm is to create meaningful lessons that will inspire you to teach through the power of stories.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--About END section-->
+
 <!--carousel-->
 <div class="container">
-  <div class="row row-content">
+  <div class="row">
     <div class="col-sm-6" >
-      <h6>Featured Books</h6>
-      <p class="fbdescription"> Teach through the power of stories and bring the world into your classroom.</p>
+      <h6 class="text-center">Featured Books</h6>
+      <p class="fbdescription text-center"> Some of our favorite books to use in the classroom!</p>
     </div>
-    <div class="col-sm-6 mx-auto d-flex carousel">
+    <div class="col-sm-6 mx-auto carousel">
       <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
@@ -95,40 +105,40 @@
 
 <!--Div with cards-->
 <div class="cardcontainer">
-<div class="container">
-  <div class="row mt-5 ">
-    <div class="col-sm-4 d-flex align-items-stretch">
-      <div class="card card1">
-        <img src="img/letter.png" class="card-img-top pt-3 center" alt="pencil">
-        <div class="card-body">
-          <h5 class="card-title">Writing</h5>
-          <p class="card-text">Find books, videos and lessons plans to teach writing!</p>
-          <a href="writing.html" class="btn btn-light cardbtn">Find</a>
+  <div class="container">
+    <div class="row mt-5 ">
+      <div class="col-sm-4 d-flex align-items-stretch">
+        <div class="card card1">
+          <img src="img/letter.png" class="card-img-top pt-3 center" alt="pencil">
+          <div class="card-body">
+            <h5 class="card-title">Writing</h5>
+            <p class="card-text">Find books, videos and lessons plans to teach writing!</p>
+            <a href="writing.html" class="btn btn-dark cardbtn">Find</a>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-sm-4 d-flex align-items-stretch">
-      <div class="card card2">
-        <img src="img/protest.png" class="card-img-top pt-3 center" alt="diversity">
-        <div class="card-body">
-          <h5 class="card-title">Representation Matters</h5>
-          <p class="card-text">Discover books with diverse charcters and experiences to read to your class.</p>
-          <a href="representationmatters.html" class="btn btn-light cardbtn">Find</a>
+      <div class="col-sm-4 d-flex align-items-stretch">
+        <div class="card card2">
+          <img src="img/protest.png" class="card-img-top pt-3 center" alt="diversity">
+          <div class="card-body">
+            <h5 class="card-title">Representation Matters</h5>
+            <p class="card-text">Discover books with diverse charcters and experiences to read to your class.</p>
+            <a href="representationmatters.html" class="btn btn-dark cardbtn">Find</a>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-sm-4 d-flex align-items-stretch">
-      <div class="card card3">
-        <img src="img/heart.png" class="card-img-top pt-3 center" alt="heart">
-        <div class="card-body">
-          <h5 class="card-title">Character Traits</h5>
-          <p class="card-text">Find books, videos and lessons plans to teacher character traits.</p>
-          <a href="charactertraits.html" class="btn btn-light cardbtn">Find</a>
+      <div class="col-sm-4 d-flex align-items-stretch">
+        <div class="card card3">
+          <img src="img/heart.png" class="card-img-top pt-3 center" alt="heart">
+          <div class="card-body">
+            <h5 class="card-title">Character Traits</h5>
+            <p class="card-text">Find books, videos and lessons plans to teacher character traits.</p>
+            <a href="charactertraits.html" class="btn btn-dark cardbtn">Find</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 </div>
 <!--end div with cards-->
     
@@ -161,9 +171,9 @@
       </form>
     </section>
     <!-- Section: end Form -->
+  </div>
 </footer>
-<!-- Footer -->
-    <!--end footer-->
+<!-- End Footer -->
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
